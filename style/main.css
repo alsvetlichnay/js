@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+header{
+    background-color: rgba(135, 80, 156, 1);
+}
+
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header-inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+}
+
+li{
+    list-style-type: none;
+    margin-left: 30px;
+    font-size: 16px;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+li:hover{
+    background-color:rgba(100, 58, 121, 1);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.text-header{
+    width: 800px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 0 auto;
+    padding: 100px 0; 
+    font-size: 26px;
+    color: white;
+    font-weight: bold;   
+    text-align: center;
+}
+
+
+button{
+    width: 300px;
+    height: 70px;
+    background-color: rgb(248, 155, 48);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+      padding-bottom: 150px;
+}
+
+main{
+    background-color: rgba(23, 194, 164, 1);
+}
+
+.services{
+    background-color:rgba(23, 194, 164, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.main-inner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.zagolovok{
+     color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.zagolovok::after{
+    position: absolute;
+    content:" ";
+    width: 87px;
+    height: 4px;
+    background-color: rgba(0, 0, 0, 1);
+    opacity: 0.14901960784313725;
+   top:53px;
+   left: 145px;
+
+ 
+
+}
+
+.text-inner{
+    width: 600px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.servic{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.services-predloshenia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding: 70px 0 100px 0;
+}
+
+.img-services{
+    width: 100px;
+    height: 100px;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    padding: 25px 0;
+}
+
+.text{
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
